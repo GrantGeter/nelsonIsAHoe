@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelson's A Hoe</title>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "./build/three.module.js",
+            "three/examples/jsm/controls/OrbitControls":"./jsm/controls/OrbitControls.js",
+            "three/examples/jsm/geometries/TextGeometry":"./jsm/geometries/TextGeometry.js",
+            "three/examples/jsm/loaders/FontLoader":"./jsm/loaders/FontLoader.js"
+          }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Prod -->
+    <!-- <script type="module" src="../dist/main.js"></script> -->
+    <!-- Dev -->
+    <script type="module" src="./src/main.js"></script>
+    <canvas id="canvas"></canvas>
+</body>
+
+</html>
